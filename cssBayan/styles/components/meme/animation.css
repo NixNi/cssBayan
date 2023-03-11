@@ -14,15 +14,17 @@
   transform: rotate(0deg);
 }
 
-.meme:hover .meme__image {
-  width: 600px;
-}
-.meme:hover .meme__wrapImg {
-  transform: rotate(0deg);
-  filter: invert(100%) sepia(34%) saturate(2430%) hue-rotate(174deg)
-    brightness(104%) contrast(107%);
-}
+@media (hover:hover) {
+  .meme:hover .meme__image {
+    width: 600px;
+  }
+  .meme:hover .meme__wrapImg {
+    transform: rotate(0deg);
+    filter: invert(100%) sepia(34%) saturate(2430%) hue-rotate(174deg)
+      brightness(104%) contrast(107%);
+  }
 
-.meme:hover .meme__title {
-  color: azure;
+  .meme:hover .meme__title {
+    color: azure;
+  }
 }
