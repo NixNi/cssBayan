@@ -10,11 +10,12 @@
 .meme {
   width: 95%;
   margin: auto;
+  cursor: pointer;
 }
 
 .meme__divider {
   border-top: 1px solid var(--text-color);
-  margin: 1em 0;
+  margin: 0.5em 0;
 }
 
 .meme__title {
@@ -29,8 +30,9 @@
 }
 
 .meme__wrapImg {
-  width: 1em;
+  width: 0.7em;
   transform: rotate(45deg);
+  filter:var(--basic-icons-filter)
 }
 
 .meme__image {

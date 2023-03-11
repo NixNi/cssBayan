@@ -9,6 +9,7 @@
   margin-right: 1em;
   display: block;
   transition: all 200ms;
+  filter: var(--basic-icons-filter);
 }
 
 .footer__link {
@@ -21,12 +22,18 @@
 
 .footer__link__span {
   font-size: 2em;
-  color: var(--text-color);
+  color: var(--active-text-color);
   transition: all 200ms;
+  text-shadow: 1px 1px 0px #FFB650, 
+    2px 2px 0px #FFD662, 
+    3px 3px 0px  #FF80BF, 
+    4px 4px 0px #EF5097, 
+    5px 5px 0px #6868AC, 
+    6px 6px 0px #90B1E0;
 }
 
 .footer__link:hover .footer__link__span{
-  color: var(--active-text-color);
+  color: var(--text-color);
 }
 .footer__link:hover .footer__img{
   filter: var(--active-icons-filter);
