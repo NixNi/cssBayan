@@ -14,7 +14,7 @@
 }
 
 .meme__divider {
-  border-top: 1px solid var(--text-color);
+  border-top: 1px solid var(--active-text-color);
   margin: 0.5em 0;
 }
 
@@ -22,6 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: var(--active-text-color);
 }
 
 .meme__text {
@@ -32,7 +33,7 @@
 .meme__wrapImg {
   width: 0.7em;
   transform: rotate(45deg);
-  filter:var(--basic-icons-filter)
+  filter: var(--active-icons-filter);
 }
 
 .meme__image {
