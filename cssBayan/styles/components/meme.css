@@ -1,0 +1,38 @@
+.memes__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: auto;
+}
+
+.meme {
+  width: 660px;
+  margin: auto;
+}
+
+.meme__divider {
+  border-top: 1px solid var(--text-color);
+  margin: 15px 0;
+}
+
+.meme__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.meme__text {
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.meme__wrapImg {
+  width: 1em;
+}
+
+.meme__image {
+  width: 600px;
+  margin: auto;
+  display: block;
+}
