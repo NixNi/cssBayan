@@ -6,7 +6,7 @@
 
 .footer__img {
   height: 2em;
-  margin-right: 10px;
+  margin-right: 1em;
   display: block;
   transition: all 200ms;
 }
@@ -26,9 +26,9 @@
 }
 
 .footer__link:hover .footer__link__span{
-  color: azure;
+  color: var(--active-text-color);
 }
 .footer__link:hover .footer__img{
-  filter: invert(100%) sepia(34%) saturate(2430%) hue-rotate(174deg) brightness(104%) contrast(107%);
+  filter: var(--active-icons-filter);
 }
 
