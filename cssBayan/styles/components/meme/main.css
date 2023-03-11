@@ -1,3 +1,5 @@
+@import './animation.css';
+
 .memes__wrapper {
   display: flex;
   flex-direction: column;
@@ -29,10 +31,15 @@
 
 .meme__wrapImg {
   width: 1em;
+  transform: rotate(45deg);
 }
 
 .meme__image {
-  width: 600px;
+  width: 0px;
   margin: auto;
   display: block;
+}
+
+.meme__rc {
+  display: none;
 }
