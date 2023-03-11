@@ -1,0 +1,51 @@
+@import "./animation.css";
+
+.memes__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.meme {
+  width: 95%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.meme__divider {
+  border-top: 1px solid var(--active-text-color);
+  margin: 0.5em 0;
+}
+
+.meme__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--active-text-color);
+}
+
+.meme__text {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.meme__wrapImg {
+  width: 0.7em;
+  transform: rotate(45deg);
+  filter: var(--active-icons-filter);
+}
+
+.meme__image {
+  width: 0;
+  margin: auto;
+  display: block;
+}
+
+.meme__rc {
+  display: none;
+}
+
+.memes__wrapper {
+  min-height: 100%;
+}

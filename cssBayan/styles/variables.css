@@ -1,0 +1,20 @@
+:root {
+  --text-color: #6868AC;
+  --active-text-color: #F9f1cc;
+  --basic-icons-filter: invert(44%) sepia(10%) saturate(2925%) hue-rotate(202deg) brightness(88%) contrast(72%);
+  --active-icons-filter: invert(87%) sepia(22%) saturate(268%) hue-rotate(3deg) brightness(106%) contrast(95%);
+  --bg-color: rgb(0, 255, 243);
+  --bg-gr-color: radial-gradient(
+    circle,
+    rgba(0, 255, 243, 0.47) 14%,
+    rgba(162, 134, 255, 0.52) 76%,
+    rgba(229, 195, 255, 0.49) 97%
+  );
+  --image-width: 65%;
+}
+
+@media (max-width: 1280px) {
+  :root {
+    --image-width: 95%;
+  }
+}
