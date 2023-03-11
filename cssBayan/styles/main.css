@@ -19,3 +19,8 @@ body {
   background: radial-gradient(circle, rgba(0,255,243,0.47) 14%, rgba(162,134,255,0.52) 76%, rgba(229,195,255,0.49) 97%);
   color:black;
 }
+
+.container {
+  width: 1200px;
+  margin: 20px auto;
+}
