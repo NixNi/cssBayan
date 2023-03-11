@@ -43,3 +43,7 @@
 .meme__rc {
   display: none;
 }
+
+.memes__wrapper {
+  min-height: 100%;
+}
